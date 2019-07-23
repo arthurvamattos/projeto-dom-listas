@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Manipulando o DOM com JavaScript</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Utilizando JavaScript para manipular listas através do DOM</h1>
+        <input id="input" type="text" placeholder="Texto do novo item da lista">
+        <div class="buttons">
+            <input type="button" value="Inserir no início" class="button" id="btn-inicio">
+            <div>
+                <input type="button" value="Inseir na posição" class="button" id="btn-posicao">
+                <input id="input-posicao" type="number" placeholder="Posição">
+            </div>
+            <input type="button" value="Inserir no final" class="button" id="btn-fim">
+        </div>
+        <ul id="lista"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
